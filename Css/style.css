@@ -1,0 +1,82 @@
+/*---- header ----*/
+@media (min-width: 991px) {
+    header.scroll {
+        background: #f8f9fa;
+        transition: all .5s ease;
+    }
+
+    header .cl {
+        color: #fff !important;
+    }
+}
+
+@media (max-width: 991px) {
+    header.scrollsm {
+        background: #f8f9fa;
+        transition: all .5s ease;
+    }
+}
+
+/*--- main ----*/
+.hero-section {
+    background-image: url(../images/hero.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-section .hero-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+.services-section {
+    background: #f9f9f9;
+}
+
+.services-item.text-center {
+    padding: 5px;
+}
+
+.services-item i {
+    font-size: 35px;
+    margin-bottom: 5px;
+    color: #007bff;
+}
+
+.btn-s {
+    padding: 10px 50px;
+    background: #007bff;
+    color: #fff;
+}
+
+.services-item p {
+    margin-bottom: 22px;
+}
+
+.md-section {
+    padding: 70px 0;
+    color: #fff;
+    background-image: url(../images/2000_5b1e498489af1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.btn-f {
+    border: 0;
+    border-radius: 0;
+}
+
+/*---- footer ----*/
+footer {
+    background: #f9f9f9;
+}
